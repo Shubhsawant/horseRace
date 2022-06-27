@@ -21,7 +21,7 @@
     req body :
     {
         email:"shubhsawant07@gmail.com"
-        password:"lTgAYaLP9jRs"
+        password:"**********"
     }
 
 
