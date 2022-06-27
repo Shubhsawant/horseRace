@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: mongoDB
+    image: mongo:latest
+    restart: always
+    volumes:
+      - ./horseData:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE= horserace
+    ports:
+      - 27017:27017
